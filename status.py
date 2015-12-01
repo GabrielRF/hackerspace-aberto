@@ -22,7 +22,7 @@ from urllib.parse import urljoin
 TOKEN = ''       ## Token gerado pelo http://telegram.me/botfather
 DOMINIO = 'http://calango.club'
 
-bot = telebot.TeleBot(TOKEN,True,4)
+bot = telebot.TeleBot(TOKEN)
 
 def obter_credenciais():
     """Obtém usuário e senha de um arquivo"""
